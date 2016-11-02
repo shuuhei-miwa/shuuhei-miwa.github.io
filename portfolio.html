@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Description" content="三輪周平のページです。プロフィール、ポートフォリオを表示しています。"/>
+        <title>ポートフォリオ</title>
+        <!-- BootstrapのCSS読み込み -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- jQuery読み込み -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- BootstrapのJS読み込み -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <style>
+            .container{
+                width: 100%;
+            }
+            
+            h1{
+                text-align: center;
+            }
+            
+            body {
+                font-size: 14px;
+            }
+            
+            .navbar {
+                border-radius: 0;
+            }
+            
+            .row { 
+                margin: 20px auto 100px;
+            }
+            
+            .icon {
+                text-align: center;
+            }
+            
+            .icon .glyphicon{
+                margin-bottom: 10px;
+                font-size: 40px;
+                color: #777;
+            }
+            
+            .content h2{
+                margin-top: 0;
+                padding-bottom: 15px;
+            }
+            
+            .content p{
+                margin-bottom: 30px;
+            }
+            
+            footer{
+               border-top: 1px solid#e7e7e7;
+               background-color: #f8f8f8;
+               text-align: center;
+            }
+            
+            section{
+                max-width: 400px;
+                background-color: #f8f8f8;
+                border: 1px solid#e7e7e7;
+                margin: 20px auto 100px;
+            }
+            
+            section .content{
+                margin: 10px;
+            }
+            
+            section .content p{
+                margin : 0;
+            }
+            
+            #logo{
+                text-align: center;
+            }
+            
+            img{
+                border-radius: 20%;
+                margin-top: 20px;
+                width: 193px;
+                height: 130px;
+            }
+            
+            .fig-group{
+                background-color: #f8f8f8;
+                border: 1px solid#e7e7e7;
+                margin: 0px;
+            }
+
+            .copyright{
+                padding: 20px 0;
+                font-size: 12px;
+                color: #666;
+            }
+            
+
+            @media (max-width: 768px){
+                body{
+                    font-size: 12px;
+                }
+            
+                h1{
+                    font-size: 30px;
+                }
+
+                h2{
+                    font-size: 24px;
+                }
+                .panel-title{
+                    font-size: 14px;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">ポートフォリオ</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="site-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#profile">プロフィール</a></li>
+                            <li><a href="#portfolio">ポートフォリオ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <h1 id="profile">プロフィール</h1>
+            <section>
+                <div id="logo">
+                    <img src="profile.jpg" alt="profile">
+                    <h3>自己紹介</h3>
+                    <p>三輪 周平</p>
+                </div>
+                <div class="content">
+                    <p>神奈川県横浜市出身。現在転職活動中（もうすぐ内定出そう）。</p>
+                    <p>これまでの使用言語はCOBOLです。</p>
+                    <p>WEBアプリケーション開発を自力でできるよう頑張ります。</p>
+                    <p>趣味はマンガ収集とクラフトビール飲み歩き。</p>
+                    <p>https://github.com/shuuhei-miwa</p>
+                </div>
+            </section>
+            <h1 id="portfolio">ポートフォリオ</h1>
+            <div class="row">
+                <div class="icon col-md-3 fig-group">
+                    <div class="hidden-xs">
+                        <img src="fig-1.jpg" alt="fig-1" img="responsive">
+                    </div>
+                    <h3>メッセージボード</h3>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                </div>
+                <div class="icon col-md-3 fig-group">
+                    <div class="hidden-xs">
+                        <img src="fig-2.jpg" alt="fig-2" img="responsive">
+                    </div>
+                    <h3>Twitterクローン</h3>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                </div>
+                <div class="icon col-md-3 fig-group">
+                    <div class="hidden-xs">
+                        <img src="fig-3.jpg" alt="fig-3" img="responsive">
+                    </div>
+                    <h3>モノリスト</h3>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                </div>
+                <div class="icon col-md-3 fig-group">
+                    <div class="hidden-xs">
+                        <img src="fig-4.jpg" alt="fig-4" img="responsive">
+                    </div>
+                    <h3>オリジナルサービス</h3>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                    <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="copyright">© 2016 Shuuhei Miwa</div>
+        </footer>
+    </body>
+</html>
